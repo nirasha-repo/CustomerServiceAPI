@@ -1,5 +1,5 @@
-# MalindoTestAPI
-Malindo - Customer Service API
+# Customer Service API
+Customer Service API
 
 Technology:
 ----------
@@ -11,11 +11,11 @@ Entity Frameworks 3.1
 Database Set up:
 ---------------
 In the project folder go to folder Data and run dbsetup.sql in sql server
-This will set up the MalindoTest database.
+This will set up the CustomerDB database.
 
 Connection to Database:
 ----------------------
-In appsettings.json under CustomerConnection update Connection strings to use your server name and set database name to MalindoTest.
+In appsettings.json under CustomerConnection update Connection strings to use your server name and set database name to CustomerDB.
 
 Authentication
 --------------
